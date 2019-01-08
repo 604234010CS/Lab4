@@ -1,4 +1,5 @@
-import { BooklistPage } from './../pages/booklist/booklist';
+import { BooklistPage } from './../pages/book-list/book-list';
+import {  HttpClientModule } from '@angular/common/http';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
@@ -24,6 +25,7 @@ import { BookRestProvider } from '../providers/book-rest/book-rest';
     
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     IonicModule.forRoot(MyApp)
   ],

@@ -1,4 +1,5 @@
-import { BooklistPage } from './../book-list';
+import { BooklistPage } from './../book-list/book-list';
+
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
